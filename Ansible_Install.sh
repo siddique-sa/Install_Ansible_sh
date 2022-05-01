@@ -10,4 +10,4 @@ sudo apt-get update
 
 sudo apt-get install ansible --yes
 
-ansible--version
+ansible --version
