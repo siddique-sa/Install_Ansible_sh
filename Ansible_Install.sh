@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update && upgrade --yes
+sudo apt-get update && apt-get upgrade --yes
 
 sudo apt-get install software-properties-common
 
@@ -11,3 +11,4 @@ sudo apt-get update
 sudo apt-get install ansible --yes
 
 ansible --version
+exit
